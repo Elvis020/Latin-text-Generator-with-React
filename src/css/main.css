@@ -59,7 +59,7 @@ body {
   text-align: center;
 }
 
-.options .wrapper .optionsContainer p.exception{
+.options .wrapper .optionsContainer p.exception {
   padding-top: 10px;
   color: #3c4773;
   font-weight: bold;
@@ -69,7 +69,15 @@ body {
 
 .options .wrapper .optionsContainer button .exception2{
   margin-top: 30px;
+  transition: 1s ease-out;
+}
+.options .wrapper .optionsContainer button{
+  margin-top: 30px;
+}
 
+.options .wrapper .optionsContainer button:hover {
+  transform: scale(.8);
+  cursor: pointer;
 }
 
 
