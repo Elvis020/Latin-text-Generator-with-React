@@ -13,7 +13,7 @@ function App() {
     fetch(API_URL)
       .then((res) => res.json())
       .then((inData) => setParagrapgh(inData));
-  }, []);
+  }, [inputValue]);
 
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
         </div>
         <TextOptions setIncludeHTML={setIncludeHTML} includeHTML={includeHTML} paragrapgh={paragrapgh} inputValue={inputValue} tag={tag} setInputValue={setInputValue} setTag={setTag} />
       </div>
+      <TextOutput paragrapgh={paragrapgh} tag={tag} includeHTML={includeHTML} />
     </>
   );
 }

@@ -59,6 +59,19 @@ body {
   text-align: center;
 }
 
+.options .wrapper .optionsContainer p.exception{
+  padding-top: 10px;
+  color: #3c4773;
+  font-weight: bold;
+  width: auto;
+  cursor: pointer;
+}
+
+.options .wrapper .optionsContainer button .exception2{
+  margin-top: 30px;
+
+}
+
 
 .options .wrapper .optionsContainer input,
 .options .wrapper .optionsContainer select {
@@ -96,7 +109,11 @@ body {
 /* Output Styles */
 
 .output {
-  width: 100%;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
   padding: 40px;
   background: #3c4773;
   border-radius: 4px;
